@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Use ONLY your selected background image */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* All text white */
+}
+
+/* Hero Section */
+.hero {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Tagline */
+.tagline {
+  font-size: 1rem;
+  color: #eee;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Title with glow */
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 0px 0px 18px rgba(255,255,255,0.8); /* glow */
+}
+
+/* Subtitle */
+.hero h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-shadow: 0px 0px 12px rgba(255,255,255,0.6);
+}
+
+/* Emphasized line */
+.hero h3 {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+}
+
+/* Paragraphs */
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  line-height: 1.6;
+  text-shadow: 0px 0px 8px rgba(0,0,0,0.6); /* soft shadow for readability */
+}
+
+/* Gradient Button (applies to <a class="btn">) */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 32px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  text-decoration: none; /* remove underline */
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  transform: scale(1.08);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 1rem;
+  opacity: 0.85;
+  color: white;
+}
